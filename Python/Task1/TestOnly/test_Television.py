@@ -37,5 +37,5 @@ def test_mute(tv):
     tv.muteOnOff()
     assert not tv.getMuted()
 
-if __name__ == "__main__":
+if __name__ == "__main__": # tells pytest to run if this is the main
     pytest.main()

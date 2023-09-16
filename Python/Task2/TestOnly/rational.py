@@ -2,7 +2,7 @@ class Rational(): # Template for methods, made after tests
     def __init__(self, numerator, denominator):
         self.numerator = numerator
         self.denominator = denominator
-    def add(self):
+    def add(self): # Methods added in Solved version
         pass
     def sub(self):
         pass
